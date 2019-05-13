@@ -10,7 +10,7 @@ const info = chalk.blue;
 const warn = chalk.yellow;
 
 console.info(info("[info] Staring service..."));
-console.info("\n" + info("[info] ") + info.underline("https://discordapp.com/api/oauth2/authorize?client_id=465060526905491457&permissions=1040&scope=bot") + "\n");
+console.info("\n" + info("[info] ") + info.underline("https://discordapp.com/api/oauth2/authorize?client_id=" + require("./token.json")[1] + "&permissions=1040&scope=bot") + "\n");
 
 const CO = Object.freeze(require("./co.json")); // iso2 COntinents -> Continents
 const CU = Object.freeze(require("./cu.json")); // iso2 CoUntries -> iso2 Continents
@@ -108,7 +108,7 @@ try {
     }
   });
 
-  client.login(require("./token.json")).catch(err => {
+  client.login(require("./token.json")[0]).catch(err => {
     console.error(error(err.stack));
     console.error(error("[err] Failure while logging in."));
   });
