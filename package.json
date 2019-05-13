@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "dca",
+  "version": "1.0.0",
+  "description": "Discord Countries Appender",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "esdmr",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "discord.js": "^11.3.2",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "ping": "^0.2.2",
+    "uws": "^10.148.1"
+  }
+}
