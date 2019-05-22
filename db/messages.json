@@ -1,0 +1,31 @@
+{
+  "service": {
+    "init": "Starting service...",
+    "oauth": "https://discordapp.com/api/oauth2/authorize?client_id={}&permissions=1040&scope=bot"
+  },
+  "discord": {
+    "init": "Setting up Discord.js client...",
+    "ready": "Logged in as {}.",
+    "join": "Joined to guild {0}#{1}.",
+    "reconnect": "Reconnecting...",
+    "final": "Shutting down Discord.js client..."
+  },
+  "input": {
+    "init": "Waiting for input",
+    "nuke": "Enter nuking passphrase:",
+    "exit": "Successfully logged off."
+  },
+  "app": {
+    "nuke": "Deleting channel {0} / {1}",
+    "ping": "Pong! {}.",
+    "run": "Running..."
+  },
+  "errors": {
+    "init": "Failure while initializing.",
+    "notGuild": "Oops! This bot can only operate in a guild.",
+    "ping": "Failure while pinging.",
+    "reply": "Failure while replying.",
+    "exit": "Failure while logging off. (Use Ctrl+C to force exit)",
+    "nuke": "Warning! All channels will be deleted."
+  }
+}
