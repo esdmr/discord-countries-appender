@@ -1,6 +1,6 @@
 export let version: 1;
 
-export let continets: {
+export let continents: {
   [x: string]: {
     name: string,
     countries: string[]
