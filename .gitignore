@@ -2,7 +2,7 @@
 # Created by https://www.gitignore.io/api/vim,git,node,macos,linux,emacs,windows,webstorm,intellij,sublimetext,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=vim,git,node,macos,linux,emacs,windows,webstorm,intellij,sublimetext,visualstudiocode
 
-token.json
+db/token.json
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
