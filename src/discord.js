@@ -72,7 +72,7 @@ function notGuild (message) {
 /** @param {Discord.Message} message */
 async function createChannels (message) {
   await message.channel.send(msg.app.run);
-  
+
   /** @type {{ [x: string]: { length: number, last: Discord.CategoryChannel } }} */
   const continents = {};
 
@@ -85,7 +85,7 @@ async function createChannels (message) {
 
   for (const item in db.countries) {
     const continent = continents[db.countries[item].continent];
-    
+
     if (continent.length % DISCORD_CATEGORY_LIMIT === 0) {
       continent.last = await message.guild.createChannel(db.continents[db.countries[item].continent].name, 'category');
     }

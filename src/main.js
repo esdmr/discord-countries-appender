@@ -5,7 +5,7 @@ const format = require('string-format');
 const discord = require('./discord');
 const io = require('./io');
 
-/**@type {import('../typings/messages')} */
+/** @type {import('../typings/messages')} */
 const msg = require('../db/messages.json');
 
 /** @type {import('../typings/token')} */
