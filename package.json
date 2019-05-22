@@ -13,10 +13,10 @@
   "author": "esdmr",
   "license": "Apache-2.0",
   "dependencies": {
-    "chalk": "2.4.1",
+    "chalk": "2.4.2",
     "discord.js": "11.3.2",
-    "erlpack": "github:hammerandchisel/erlpack",
     "ping": "0.2.2",
-    "uws": "10.148.1"
+    "semistandard": "13.0.1",
+    "string-format": "2.0.0"
   }
 }
