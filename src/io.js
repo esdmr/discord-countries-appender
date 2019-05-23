@@ -1,19 +1,19 @@
 const chalk = require('chalk');
 
 exports.log = (...messages) =>
-  console.error(chalk.gray('Log '), ...messages);
+  console.error(chalk.gray('Log  '), ...messages);
 
 exports.info = (...messages) =>
-  console.error(chalk.blue('Info'), ...messages);
+  console.error(chalk.blue('Info '), ...messages);
 
 exports.warn = (...messages) =>
-  console.error(chalk.yellow('Warn'), ...messages);
+  console.error(chalk.yellow('Warn '), ...messages);
 
 exports.error = (...messages) =>
-  console.error(chalk.red('Err '), ...messages);
+  console.error(chalk.red('Err  '), ...messages);
 
 exports.fatal = err => {
-  exports.error(err);
+  console.error(chalk.bold.red('Fatal'), err);
   process.exit();
 };
 
