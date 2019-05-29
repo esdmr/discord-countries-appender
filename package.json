@@ -14,7 +14,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "chalk": "2.4.2",
-    "discord.js": "11.3.2",
+    "discord.js": "11.5.1",
     "ping": "0.2.2",
     "semistandard": "13.0.1",
     "string-format": "2.0.0"
