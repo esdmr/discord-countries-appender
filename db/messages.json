@@ -21,11 +21,10 @@
     "run": "Running..."
   },
   "errors": {
-    "init": "Failure while initializing.",
     "notGuild": "Oops! This bot can only operate in a guild.",
-    "ping": "Failure while pinging.",
-    "reply": "Failure while replying.",
-    "exit": "Failure while logging off. (Use Ctrl+C to force exit)",
-    "nuke": "Warning! All channels will be deleted."
+    "nuke": "Warning! All channels will be deleted.",
+    "notCommand": "Oops! `{}` is not a command.",
+    "noU": "no u",
+    "pending": "A pending operation is in progress."
   }
 }

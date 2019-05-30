@@ -14,6 +14,5 @@ const token = require('../db/token.json');
 io.info(msg.service.init);
 io.info(format(msg.service.oauth, token.clientId));
 io.logNull();
-
 discord.init(token.token);
 io.init();
